@@ -16,7 +16,7 @@ Thanks for helping improve the Language Setup Guides!
 
 Organize your contribution like this:
 
-```
+```text
 linux/
   └── python/
       └── README.md
