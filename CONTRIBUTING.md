@@ -26,11 +26,12 @@ macos/
 windows/
   └── cpp/
       ├── README.md       # Primary C++ installation guide (e.g., using MSVC with Visual Studio)
+      ├── vscode.md       # Setting up with Visual Studio Code
       ├── mingw.md        # Alternative installation using MinGW
       └── clang.md        # Alternative installation using Clang/LLVM
 ```
 
-Inside each OS folder, create a separate folder for each language or tool. The primary installation guide should be named `README.md` inside that folder. If you need to provide multiple installation options (e.g., different versions or package managers), add extra markdown files with clear names alongside the main README.
+Inside each OS folder, create a separate folder for each language. The primary installation guide should be named `README.md` inside that folder. If you need to provide multiple installation options (e.g., different versions, package managers, text editors, etc.), add extra markdown files with clear names alongside the main README.
 
 ---
 
