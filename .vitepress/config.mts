@@ -10,7 +10,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Setups', link: '/Setups' }
+      { text: 'Languages', link: '/languages' }
+      { text: 'Tools', link: '/tools' }
     ],
 
  sidebar: [
