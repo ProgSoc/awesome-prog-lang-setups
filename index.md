@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Explore Setups
-      link: /setups
+      link: /languages
     - theme: alt
       text: Contribute
       link: /contributing
