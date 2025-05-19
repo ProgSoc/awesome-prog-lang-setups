@@ -40,6 +40,9 @@ Nix enables reproducible and isolated Python environments. Flakes are the modern
 ```bash
 nix develop
 ```
+::: tip
+You might have to `git add` the flake file first depending on your settings
+:::
 
 ## 4\. `direnv` Integration
 ### `.envrc` (Project Root)

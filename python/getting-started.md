@@ -15,6 +15,7 @@ To get started with Python, you need to install it on your system. Choose the in
 
 - [macOS](./install/macos.md)
 - [Linux](./install/linux.md)
+- [Nix](./install/nix.md)
 - [Windows](./install/windows.md)
 
 ## Verifying the Installation
