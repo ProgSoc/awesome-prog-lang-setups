@@ -11,16 +11,26 @@ export default defineConfig({
       { text: 'Setups', link: '/Setups' }
     ],
 
-    sidebar: [
+ sidebar: [
+  {
+    text: 'Languages',
+    items: [
       {
-        text: 'Setups',
+        text: 'Python',
+        collapsed: true,
         items: [
-          { text: 'Python', link: '/python/getting-started' },
-          { text: 'JavaScript', link: '/javascript/getting-started' },
-          { text: 'Java', link: '/java/getting-started' },
-          { text: 'Go', link: '/go/getting-started' },
-          { text: 'C++', link: '/cpp/getting-started' },
-          { text: 'C#', link: '/csharp/getting-started' },        ]
+          { text: 'Getting Started', link: '/python/getting-started' },
+          { text: 'Virtual Environments', link: '/python/virtual-environments' },
+          { text: 'Dependencies', link: '/python/dependencies' },
+        ]
+      },
+      // add more languages later...
+      // { text: 'JavaScript', link: '/javascript/getting-started' },
+      // { text: 'Java', link: '/java/getting-started' },
+      // { text: 'Go', link: '/go/getting-started' },
+      // { text: 'C++', link: '/cpp/getting-started' },
+      // { text: 'C#', link: '/csharp/getting-started' },
+    ]
       }
     ],
 
