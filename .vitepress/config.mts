@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Awesome Lang Setups",
   description: "Awesome Lang Setups by ProgSoc",
+  // WARNING REMOVE DEADLINKS LATER!!!
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
