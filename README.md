@@ -43,11 +43,3 @@ Have improvements or want to add a new guide? We'd love your help!
 Check out [CONTRIBUTING.md](./CONTRIBUTING.md) for how to get started.
 
 ---
-
-![ProgSoc Logo](assets/progsoc-logo.png)
-
-<style>
-.hidden-image {
-  display: none;
-}
-</style>

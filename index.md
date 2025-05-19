@@ -7,7 +7,7 @@ hero:
   text: "by ProgSoc"
   tagline: Your guide to streamlined development environments and best practices for various programming languages.
   image:
-    src: assets/progsoc-logo.png
+    src: /images/logo.svg
     alt: ProgSoc Logo
   actions:
     - theme: brand
