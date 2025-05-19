@@ -10,7 +10,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Setups', link: '/Setups' }
+      { text: 'Languages', link: '/languages' },
+      { text: 'Tools', link: '/tools' }
     ],
 
  sidebar: [
@@ -22,6 +23,12 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Getting Started', link: '/python/getting-started' },
+          { text: 'Installation', collapsed: true, items: [
+                {text: 'MacOs', link: '/python/install/macos'},
+                {text: 'Linux', link: '/python/install/linux'},
+                {text: 'Windows', link: '/python/install/windows'},
+                {text: 'Nix', link: '/python/install/nix'},
+              ]},
           { text: 'Virtual Environments', link: '/python/virtual-environments' },
           { text: 'Dependencies', link: '/python/dependencies' },
         ]

@@ -6,14 +6,6 @@ Whether you're using **Linux**, **macOS**, or **Windows**, you'll find tailored 
 
 ---
 
-## 📂 Folder Overview
-
-- [`linux/`](./linux/) — Setup instructions for Linux systems
-- [`macos/`](./macos/) — Setup instructions for macOS systems
-- [`windows/`](./windows/) — Setup instructions for Windows systems
-
----
-
 ## 📌 Example Languages Covered
 
 - Python
@@ -28,10 +20,13 @@ Whether you're using **Linux**, **macOS**, or **Windows**, you'll find tailored 
 
 ## 🔍 How to Use This Repo
 
-Best way to read the guides is on the [website](https://awesomelang.netlify.app/), otherwise:
+Best way to read the guides is on the [website](https://awesomelang.netlify.app/)
 
-1. **Find your operating system folder**
-2. Open the guide for the language/tool you need to install
+Alternatively if you want to stay on github:
+
+1. **Find your language/tool folder**
+    - e.g `/python/`
+2. Open up `getting-started.md` in that folder
 3. Follow the instructions step-by-step
 
 ---
