@@ -17,16 +17,18 @@ Whether you're using **Linux**, **macOS**, or **Windows**, you'll find tailored 
 ## 📌 Example Languages Covered
 
 - Python
-- Node.js
-- Rust
-- Java
-- Git & CLI Tools
+- Node.js (coming soon)
+- Rust (coming soon)
+- Java (coming soon)
+- Git & CLI Tools (coming soon)
 
 > More languages and tools will be added over time!
 
 ---
 
 ## 🔍 How to Use This Repo
+
+Best way to read the guides is on the [website](https://awesomelang.netlify.app/), otherwise:
 
 1. **Find your operating system folder**
 2. Open the guide for the language/tool you need to install
