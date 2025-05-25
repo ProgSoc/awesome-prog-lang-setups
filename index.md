@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Explore Setups
-      link: /setups
+      link: /languages
     - theme: alt
       text: Contribute
       link: /contributing
@@ -31,36 +31,3 @@ features:
   - title: Always Improving
     details: We continuously update and add new language setups and guides based on community needs and workshop requirements.
 ---
-
-<style>
-.features {
-  margin-top: 4rem;
-}
-.features > ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 0;
-  list-style: none;
-}
-.features li {
-  padding: 1.5rem;
-  border: 1px solid var(--vp-c-border);
-  border-radius: 6px;
-}
-.features h3 {
-  font-size: 1.4rem;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-}
-</style>
-
-<div class="features">
-  <h3>Why Awesome Language Setups?</h3>
-  <ul>
-    <li v-for="{ title, details } in $frontmatter.features" :key="title">
-      <h3>{{ title }}</h3>
-      <p>{{ details }}</p>
-    </li>
-  </ul>
-</div>
